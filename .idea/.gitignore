@@ -1,0 +1,71 @@
+### Стандартные исключения ###
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+*.nar
+*.iml
+*.ipr
+*.iws
+*.bak
+*.tmp
+*.orig
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+### Директории сборки ###
+/target/
+/build/
+/out/
+/bin/
+/production/
+/.gradle/
+/.idea/
+
+### Логи и дампы ###
+hs_err_pid*
+*.hprof
+*.log
+
+### Maven ###
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+/out/
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### Системные файлы ###
+*.swp
+*~
+.DS_Store# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
